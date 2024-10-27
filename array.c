@@ -1,5 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
-
 #include <stdio.h>
 #define SIZE 9
 
@@ -7,6 +5,7 @@ int main(void)
 {
     char matricola[SIZE];
 
+    printf("inserisci numero matricola:");
     scanf("%9s", matricola);
 
     printf("La matricola e': %s\n", matricola);
@@ -23,5 +22,5 @@ int main(void)
 
     float media;
     media = (a + b + c + d) / 4;
-    printf("Questa è la media della mia matricola divisa in quattro gruppi :%.2f", media);
+    printf("Questa Ã¨ la media della mia matricola divisa in quattro gruppi :%.2f", media);
 }
